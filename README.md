@@ -1,4 +1,3 @@
-# setup-dualscreen
 ## Setup 2 monitors with separate screens and common mouse/keyboard
 
 Setup xorg.conf to 2 monitors config.
