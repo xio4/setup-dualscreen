@@ -1,5 +1,5 @@
 # setup-dualscreen
-Setup 2 monitors with separate screens and common mouse/keyboard
+## Setup 2 monitors with separate screens and common mouse/keyboard
 
 Setup xorg.conf to 2 monitors config.
 
@@ -15,6 +15,6 @@ Section "ServerLayout"
 	Option         "Xinerama" "0"
 EndSection
 ```
-Compile: [http://dsp.mcbf.net/releases/dualscreen-mouse-utils-0.5.tar.gz](dualscreen-mouse-utils)
+Compile: [dualscreen-mouse-utils](http://dsp.mcbf.net/releases/dualscreen-mouse-utils-0.5.tar.gz)
 
 Add hotkey to wm: mouse-switchscreen -f 1 
